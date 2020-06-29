@@ -1,0 +1,117 @@
+header{
+	background-color: hsl(180, 20%, 30%);
+	height: 80px;
+	width: 100%;
+}
+
+header figure #logo {
+	height: 12em;
+	margin-top: -50px;
+	margin-left: : 0px;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: white;
+	color: white;
+	height: 100vh;
+	background-color: hsl(180, 20%, 50%);
+}
+
+h1 {
+	color: white;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 35px;
+}
+p {
+	text-align: center;
+	padding-bottom: 20px;
+	font-size: 18px;
+}
+
+#melding {
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 50px;
+	font-weight: 300;
+}
+
+/*Opmaak box 3 */
+#weather {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 85%;
+	background-color: hsl(180, 20%, 30%);
+	margin: auto;
+	border-radius: 10px;
+	height: 175px;
+	margin-bottom: 50px;
+}
+
+/*Opmaak van de titel box 3*/
+#plaats {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+	font-size: 22px;
+}
+
+/*Opmaak van het blok waar de minimum, maximun en actuele tempratuur in staat*/
+#temperatuurBox {
+	display: flex;
+	align-items: center;
+
+}
+
+/*Opmaak van de weergeving van de actuele tempratuur*/
+#graden {
+	margin-left: 0px;
+	font-size: 40px;
+	font-weight: 600;
+	padding-left: 10px;
+}
+
+/*Opmaak van de weergeving van de actuele windsnelheid*/
+#wind {
+	margin-top: 5px;
+	font-size: 19px;
+	font-weight: 300;
+}
+
+/*Opmaak van de div box van met de fiets informatie*/
+#bike {
+	width: 85%;
+	background-color: hsl(180, 20%, 30%);
+	margin: auto;
+	border-radius: 10px;
+	height: 175px;
+	margin-bottom: 50px;
+}
+
+/*Opmaak van de titel van de box met de fiets informatie*/
+#fietsverhuur {
+	font-size: 22px;
+	font-weight: 600;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+}
+
+/*Opmaak van de melding over de fiets informatie*/
+#aantal {
+	text-align: center;
+	margin-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 19px;
+	font-weight: 300;
+}
